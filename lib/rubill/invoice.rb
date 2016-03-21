@@ -28,10 +28,10 @@ module Rubill
       remote_record[:amountDue]
     end
 
-    def self.line_item(amount, description, item_id)
+    def self.line_item(amount, description, item_id, quantity=1)
       {
         entity: "InvoiceLineItem",
-        quantity: 1,
+        quantity: quantity,
         itemId: item_id,
         # must to_f amount otherwise decimal will be converted to string in JSON
         price: amount.to_f,
