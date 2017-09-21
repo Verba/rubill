@@ -1,7 +1,7 @@
 module Rubill
   class VendorCredit < Base
     def self.remote_class_name
-      "VendCredit"
+      "VendorCredit"
     end
   end
 end
