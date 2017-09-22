@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
                     "lib/rubill/vendor.rb",
                     "lib/rubill/customer.rb",
                     "lib/rubill/customer_contact.rb",
+                    "lib/rubill/vendor_credit.rb"
                   ]
   s.homepage    = 'http://rubygems.org/gems/rubill'
   s.license     = 'MIT'
